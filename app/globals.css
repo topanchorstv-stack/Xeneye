@@ -1,0 +1,5 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-slate-50 text-slate-800; }
+.btn { @apply rounded bg-orange-500 px-3 py-1.5 text-sm font-medium text-white hover:bg-orange-600 disabled:opacity-50; }
+.btn-ghost { @apply rounded px-2 py-1 text-xs text-slate-500 hover:bg-slate-200; }
+.input { @apply w-full rounded border border-slate-300 px-3 py-2 text-sm; }
